@@ -1,0 +1,194 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.banner{
+    background: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=600)no-repeat center;
+    background-size: 100%;
+    height: 100vh;
+}
+nav{
+    width: 98%;
+    background: black;
+    padding: 10px 120px;
+    height: 56px;
+    margin: 15px;
+}
+nav h1{
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    padding: 0px 10px;
+}
+nav ul{
+    float: right;
+    display: inline-flex;
+    padding: 6px;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 0px 30px;
+}
+nav ul li ul{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    background: black;
+    margin-top: 10px;
+}
+nav ul li ul{
+    display: none;
+}
+nav ul li ul li ul{
+    margin-left: 108px;
+}
+nav ul li:hover ul{
+    display: flex;
+}
+nav ul li ul li{
+    width: auto;
+    padding: 20px 5px;
+    text-align: justify;
+}
+nav ul li ul li a{
+    border-bottom: 1px solid white;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    padding: 10px;
+}
+nav h1,nav ul li a:hover{
+    background: rgba(240, 248, 255, 0.552);
+}
+.td{
+    display: none;
+}
+.tej h1{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    font-size: 34px;
+    letter-spacing: 2px;
+
+}
+.tej p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    color: rgba(240, 248, 255, 0.683);
+    margin-top: 30px;
+}
+.tej{
+    margin: 180px 0px 0px 120px ;
+}
+.tej button{
+    padding: 12px 23px;
+    background: red;
+    color: white;
+    border: 0px;
+    outline: 2px solid red;
+    box-shadow: 3px 3px 6px rgb(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    transition: 1s;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.tej button:hover{
+    background: transparent;
+}
+ button{
+    padding: 12px 23px;
+    background: red;
+    color: white;
+    border: 0px;
+    outline: 2px solid red;
+    box-shadow: 3px 3px 6px rgb(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    transition: 1s;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+ button:hover{
+    background: transparent;
+}
+h2{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container .item{
+    height: auto;
+    width: 350px;
+    padding: 20px 35px;
+    background-color: rgba(249, 37, 37, 0.751);
+    border-radius: 20px;
+    transition: 1s;
+}
+.container .item:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+.container .item h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5)
+    
+}
+.container .item p{
+    color: rgba(240, 248, 255, 0.644);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5)
+    
+}
+.container .item1{
+    height: auto;
+    width: 350px;
+    padding: 20px 35px;
+    margin-top: 50px;
+}
+.container .item1 p{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    letter-spacing: 2px;
+}
+.banner #rr{
+    color:white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    letter-spacing: 2px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
